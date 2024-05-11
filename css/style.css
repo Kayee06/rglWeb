@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   font-size: large;
+   box-sizing: border-box;
+   font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+}
+
+nav {
+    background-color: #b2fab2;;
+}
+
+.navbar-brand {
+    font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* background-color: aquamarine; */
+}
+
+/* index.html */
+
+.hero {
+    margin-top: 45vh;
+    display: flex;
+    justify-content: start;
+    align-items: center; 
+}
+
+.tagLineContainer {
+    display: flex;
+    color: #1e1e1e;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(240, 248, 255, 0.9); 
+    border-radius: 20px;
+    padding: 20px 20px;
+}
+
+.tagLine {
+    /* background-color: aliceblue; */
+    font-size: 3rem;
+}
+
+.cta {
+    font-weight:500 ;
+    text-decoration: none;
+    color: #272728;
+    background-color: #81fb81;
+    padding: 5px  10px;
+    border: 1px solid #484848;
+    border-radius: 2px;
+}
+
+.cta:hover {
+    background-color: #b6f0b6;
+    border: 1px solid #272728;
+}
+
+/* Room Info*/
+.container {
+    min-height: 100vh;
+    background-color: rgba(252, 252, 252, .9);
+    border-radius: 10px;
+}
+
+.card {
+    min-height: 430px;
+    border-radius: 5px;
+}
+
+.roomInfo {
+    margin: 20px 0px;
+    padding: 20px 0px;
+}
+
+.infoR {
+    height: 200px;
+    font-size: .5 rem;
+}
+ 
+.roomImg {
+    height: 180px;
+    max-width: 500px;
+}
+
+.set2 {
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #272728;
+    /* background-color: #46f399; */
+}
+
+/* about us */
+.aboutUsCon {
+    background-color: rgba(252, 252, 252, .9);
+    border-radius: 5px;
+}
+
+h2 {
+    color: #000000;
+}
+p {
+    color: #000000;
+}
+
+
+footer {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    background-color: #b2fab2; /* Mint Green with 50% opacity */
+    height: 35vh;
+}
+
+/* services */
+.room {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .room h2 {
+    margin-top: 0;
+  }
+  
+  .room p {
+    margin-bottom: 5px;
+  }
+  
