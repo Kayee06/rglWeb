@@ -117,15 +117,6 @@ p {
     color: #000000;
 }
 
-
-footer {
-    margin: 0;
-    padding: 0;
-    font-size: 1rem;
-    background-color: #b2fab2; /* Mint Green with 50% opacity */
-    height: 35vh;
-}
-
 /* services */
 .room {
     border: 1px solid #ccc;
@@ -141,3 +132,10 @@ footer {
     margin-bottom: 5px;
   }
   
+  footer {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    background-color: #b6d7b6; /* Mint Green with 50% opacity */
+    height: 35vh;
+}
