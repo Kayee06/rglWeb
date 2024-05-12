@@ -33,7 +33,6 @@ section {
 /* index.html */
 
 .hero {
-    margin-top: 45vh;
     display: flex;
     justify-content: start;
     align-items: center; 
